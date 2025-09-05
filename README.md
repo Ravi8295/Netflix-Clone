@@ -11,6 +11,34 @@ A responsive front-end clone of the Netflix website built using HTML and CSS. Th
 <img width="1365" height="715" alt="Screenshot 2025-09-03 125114" src="https://github.com/user-attachments/assets/d1d9d600-fad6-4ff7-8624-07357059fee7" />
 <img width="1365" height="717" alt="Screenshot 2025-09-03 125145" src="https://github.com/user-attachments/assets/717e68f7-3bb3-4efc-80bd-00ccc5584487" />
 
+#🚀 Features
+
+🎥 Netflix-inspired desktop homepage UI
+🎨 Styled using pure CSS (Flexbox, Grid, positioning)
+🔗 Navigation bar with logo and links
+🖼️ Hero section with background images & video integration
+📂 Content sections styled to resemble Netflix originals
+
+#🛠️ Tech Stack
+
+HTML5
+CSS3
+
+#🌐 Live Demo
+
+👉 https://ravi8295.github.io/Netflix-Clone/
+
+#📌 Limitations & Improvements
+
+❌ Not developed with a mobile-first approach → layout issues appear on smaller screens
+⏳ Add responsive design with media queries
+⏳ Enhance interactivity using JavaScript (carousel, modals, etc.)
+
+#🙌 Acknowledgements
+
+Inspired by the official Netflix homepage.
+Built as a practice project to sharpen front-end development skills.
+
 
 
 
