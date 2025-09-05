@@ -30,13 +30,13 @@ CSS3
 
 # 📌 Limitations & Improvements
 
-❌ Not developed with a mobile-first approach → layout issues appear on smaller screens
-⏳ Add responsive design with media queries
-⏳ Enhance interactivity using JavaScript (carousel, modals, etc.)
+❌ Not developed with a mobile-first approach → layout issues appear on smaller screens  
+⏳ Add responsive design with media queries  
+⏳ Enhance interactivity using JavaScript (carousel, modals, etc.)  
 
 # 🙌 Acknowledgements
 
-Inspired by the official Netflix homepage.
+Inspired by the official Netflix homepage.  
 Built as a practice project to sharpen front-end development skills.
 
 
