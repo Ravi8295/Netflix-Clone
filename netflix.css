@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins",Sans-Serif;
+}
+body{
+    background-color: #000;
+}
+
+.main{
+   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+   height: 100vh;
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+.main .box{
+    height: 100vh;
+   /* border: 1px solid red; */ /* for layout-reference*/
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    top: 0;
+    opacity: 0.69;
+}
+
+nav{
+   /* border: 2px solid rgb(225, 255, 0); */ /* for layout-reference*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    height: 62px;
+    padding-top: 15px;
+}
+
+nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button, nav select{
+    z-index: 10;
+    position: relative;
+
+}
+
+.option-value{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 2px;
+    padding: 3px;
+    width: 80px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.btn-red-sm{
+    padding: 7px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.main nav div{
+   /* border: 2px solid red; */ /* for layout-reference*/
+    display: flex;
+    min-width: 20vw;
+}
+
+.hero{
+   /* border: 1px solid white; */ /* for layout-reference*/
+    color: #fff;
+    font-family: "Martel Sans",Sans-Serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: calc(100% - 77px);
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 0px;
+    flex-direction: row;
+}
+.input-field{
+    height: 38px;
+    width: 30vw;
+    border: none;
+    padding: 5px;
+}
+
+.get-started-btn{
+    height: 38px;
+    background-color: #e50914;
+    color: white;
+    border-width: 0px;
+    padding: 5px;
+}
+
+/*section-first css*/
+
+.first{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-sec, .first-second, .second-sec, .first-third, .third-sec, .forth-sec{
+  /*  border: 1px solid red; */ /* for layout-reference*/
+    color: #fff;
+}
+
+.sec-img{
+   /* border: 1px solid red; */ /* for layout-reference*/
+    position: relative;
+}
+
+.monitor-img{
+    position: relative;
+    z-index: 10;
+}
+
+.sec-img video{
+    position: absolute;
+    left: 77px;
+    top: 95px;
+}
+
+.first-sec-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.first-sec-des{
+    font-size: 18px;
+    line-height:1.6;
+}
+
+/*section tag with class first-second css*/
+
+.first-second, .first-third, .first-forth{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-third video{
+    height: 60%;
+    width: 65%;
+    top: 0%;
+    left: 17%;
+}
+
+.faq-box{
+    max-width: 800px;
+    margin: auto;
+   /* border: 1px solid red; */ /* for layout-reference*/
+    
+}
+
+.faq h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-box li{
+    color: #fff;
+    background-color: #4A4A4A;
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.faq-box li span{
+    font-size: 19px;
+}
+
+.hero-end{
+   /* border: 1px solid red;*/ /* for layout-reference*/
+    text-align: center;
+}
+
+.hero-end span{
+   /* border: 1px solid red;*/ /* for layout-reference*/
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-end div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.hero-buttons input{
+    height: 38px;
+    width: 30vw;
+    border: none;
+    padding: 5px;
+}
+
+.hero-buttons button{
+    height: 38px;
+    background-color: #e50914;
+    color: white;
+    border-width: 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+footer{
+   /* border: 1px solid white;*/ /* for layout-reference*/
+    color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+footer span{
+   /* border: 1px solid red;*/ /* for layout-reference*/
+    color: grey;
+    display: block;
+    
+}
+
+footer span a{
+    color: gray;
+}
+
+.items{
+   /* border: 1px solid goldenrod;*/ /* for layout-reference*/
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-elements{
+   /* border: 1px solid violet; */ /* for layout-reference*/
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.footer-item{
+   /* border: 1px solid white; */ /* for layout-reference*/
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+    
+.footer-item a{
+    color: grey;
+
+}
+
+.final select{
+    background-color: transparent;
+    color: #fff;
+    width: 130px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
