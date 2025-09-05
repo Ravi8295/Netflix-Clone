@@ -21,7 +21,7 @@ A responsive front-end clone of the Netflix website built using HTML and CSS. Th
 
 # 🛠️ Tech Stack
 
-HTML5
+HTML5  
 CSS3
 
 # 🌐 Live Demo
