@@ -15,9 +15,9 @@ A responsive front-end clone of the Netflix website built using HTML and CSS. Th
 
 🎥 Netflix-inspired desktop homepage UI  
 🎨 Styled using pure CSS (Flexbox, Grid, positioning)    
-🔗 Navigation bar with logo and links
-🖼️ Hero section with background images & video integration
-📂 Content sections styled to resemble Netflix originals
+🔗 Navigation bar with logo and links  
+🖼️ Hero section with background images & video integration  
+📂 Content sections styled to resemble Netflix originals  
 
 # 🛠️ Tech Stack
 
